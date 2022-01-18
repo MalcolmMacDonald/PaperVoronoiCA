@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Load the Paper.js library -->
+    <script type="text/javascript" src="node_modules/paper/dist/paper-full.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="js/rhill-voronoi-core.js"></script>
+    <!-- Define inlined PaperScript associate it with myCanvas -->
+    <script type="text/paperscript" canvas="myCanvas" src="js/voronoiCA.js"></script>
+</head>
+<body class="fullscreen">
+<article>
+
+    <canvas resize="true" id="myCanvas"
+            style="-webkit-user-drag: none; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
+            data-paper-scope="1"></canvas>
+    </div>
+</article>
+</body>
+</html>
